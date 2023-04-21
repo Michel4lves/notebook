@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    overflow: scroll;
+}
+
+.tips-box {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.tips {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    width: 600px;
+}
+
+.tips-box .command-title {
+    margin-top: 20px;
+    color: #0000cc;
+}
+
+.tips-box .command-box,
+.tips-box .result-box {
+    padding: 5px 20px;
+    font-size: 1.2em;
+    background-color: #e3e3e3;
+    width: 600px;
+}
+
+.tips-box .result-box {
+    background-color: #000;
+    color: #fff;
+}
+
+.anchor {
+    color: #ff0000;
+    font-weight: 600;
+}
+
+thead {
+    text-align: left;
+}
+
+td {
+    width: 100px;
+}
+
+
+
+/* COMMANDS */
+
+.indent-1 {
+    padding-left: 30px;
+}
+
+.indent-2 {
+    padding-left: 60px;
+}
+
+.indent-3 {
+    padding-left: 90px;
+}
+
+.function {
+    color: #008000;
+}
+
+.string {
+    color: #a96f02;
+}
+
+.number {
+    color: #8e9d08;
+}
+
+.and-or {
+    color: #0000cc;
+}
+
+.list {
+    color: #0070cc;
+}
+
+.class {
+    color: #0070cc;
+}
+
+.def {
+    color: #0070cc;
+}
+
+.self {
+color: #8b00cc;
+}
+
+.function-name {
+    color: #caca1c;
+}
+
+.return {
+    color: #a90277;
+}
